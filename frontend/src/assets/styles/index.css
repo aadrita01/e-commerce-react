@@ -53,11 +53,17 @@ table th {
 }
 
 .custom-navbar {
-  height: 80px;
+  height: auto;
   background-color: var(--bs-primary);
 }
 
 .custom-navbar .navbar-brand,
 .custom-navbar .nav-link {
   color: white !important;
+}
+
+@media (min-width: 995px) {
+  .custom-navbar {
+    height: 80px;
+  }
 }
